@@ -16,7 +16,8 @@ ActiveRecord::Schema.define(version: 2021_11_17_120556) do
   enable_extension "plpgsql"
 
   create_table "contents", force: :cascade do |t|
-    t.string "description"
+    t.string "title"
+    t.string "slug"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -24,6 +24,7 @@ puts "@DEBUG L:#{__LINE__}    Running validate..."
   def create
     # @TODO
 puts "@DEBUG L:#{__LINE__}    Running create..."
+    @content.save!
   end
 
 end

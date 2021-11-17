@@ -61,3 +61,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # @TODO need to be refactored
 gem "actionable", git: "https://96e1287db6344657bc92e5473bd03bb8678f8c4c:x-oauth-basic@github.com/acima-credit/actionable.git", branch: "master"   # https://github.com/acima-credit/actionable
+
+gem "superslug", "1.3.1"    # https://github.com/hungrymedia/superslug

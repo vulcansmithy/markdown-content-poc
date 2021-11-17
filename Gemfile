@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+
 ruby '2.7.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
@@ -55,3 +56,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# @TODO need to be refactored
+gem "actionable", git: "https://96e1287db6344657bc92e5473bd03bb8678f8c4c:x-oauth-basic@github.com/acima-credit/actionable.git", branch: "master"   # https://github.com/acima-credit/actionable

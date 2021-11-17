@@ -1,3 +1,12 @@
+GIT
+  remote: https://96e1287db6344657bc92e5473bd03bb8678f8c4c:x-oauth-basic@github.com/acima-credit/actionable.git
+  revision: 85524d391bba43c5478ab47e24dd6b8cde31fb61
+  branch: master
+  specs:
+    actionable (0.1.4)
+      activemodel (>= 4.1)
+      activesupport (>= 4.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -220,6 +229,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionable!
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)

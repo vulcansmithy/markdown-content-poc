@@ -15,5 +15,9 @@ module MarkdownContentPoc
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+    
+    #config.eager_load_paths << Rails.root.join("app", "actions")
+    config.autoload_paths += %W[#{config.root}/app/actions/contents]
+    config.autoload_paths += %W[#{config.root}/app/actions/markdown_contents]
   end
 end
